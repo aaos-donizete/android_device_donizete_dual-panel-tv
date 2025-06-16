@@ -1,3 +1,5 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/dual_panel_tv.mk
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/cf_dual_panel_tv.mk
 
-COMMON_LUNCH_CHOICES := dual_panel_tv-trunk_staging-userdebug
+COMMON_LUNCH_CHOICES := \
+	cf_dual_panel_tv-trunk_staging-userdebug
